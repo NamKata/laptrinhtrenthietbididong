@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">日記</string>
+    <string name="tieu_de">役職</string>
+    <string name="noi_dung">内容</string>
+    <string name="luu">保存する</string>
+    <string name="dong">閉じます</string>
+    <string name="co">はい</string>
+    <string name="khong">いや</string>
+    <string name="bancochacmuondong">閉じてもよろしいですか？</string>
+    <string name="bancochacmuonxoachu">本当に削除しますか？</string>
+    <string name="tukhoabanmuontimlagi">見つけたいキーワードは何ですか ？</string>
+    <string name="caidatmatkhau">パスワード設定</string>
+    <string name="caidatngongu">言語設定</string>
+    <string name="caidatmausac">カラー設定</string>
+    <string name="caidatkhac">その他の設定</string>
+    <string name="gioithieuveapp">アプリの紹介</string>
+    <string name="theme">テーマ</string>
+    <string name="quasodong">行番号を横切る</string>
+    <string name="trong">行番号は空白にできません</string>
+    <string name="noi">言ってください！</string>
+    <string name="bieucam1">楽しい、幸せ、素晴らしい</string>
+    <string name="bieucam2">自信がない、心配しない、したくない</string>
+    <string name="bieucam3">仕事、グループ会議、計画に行く</string>
+    <string name="bieucam4">デート、予約、予約</string>
+    <string name="mat_khau_it_nhat_6_chu_so">パスワードは6桁以上です</string>
+    <string name="nhap_de_xac_nhan_lai_mat_khau">入力してパスワードを再定義します</string>
+    <string name="tao_khoa_an_toan">セキュリティキーを作成する</string>
+    <string name="tra_loi_cau_hoi">質問に答える</string>
+    <string name="cau1">あなたの父親または母親の名前は何ですか？</string>
+    <string name="cau2">あなたの恋人の名前は何ですか？</string>
+    <string name="cau3">誰にも知られたくないあなたの秘密はどれですか？</string>
+    <string name="cau4">あなたの名前は何ですか?</string>
+    <string name="Password"></string>
+    <string name="Khoamatkhau"></string>
+    <string name="nhap_mat_khau">パスワードを入力してください</string>
+    <string name="dang_nhap">ログイン</string>
+    <string name="khong_cho_phep_cai_mat_khau">パスワードの設定を許可しない</string>
+    <string name="nhap_mat_khau_moi">新しいパスワードを入力してください</string>
+    <string name="nhap_mat_khau_cu">古いパスワードを入力してください</string>
+    <string name="thay_doi_mat_khau">パスワード変更</string>
+    <string name="nhat_ky">日記</string>
+    <string name="xac_nhan">確認する</string>
+    <string name="success">成功</string>
+    <string name="m_kh_a">ロック解除</string>
+    <string name="error">エラー</string>
+    <string name="cai_dat_kich_thuoc_chu">フォントサイズをインストールする</string>
+    <string name="sizetieude">13</string>
+    <string name="SizeNoidung">13</string>
+    <string name="SizeNut">13</string>
+    <string name="SizeGio">13</string>
+    <string name="SizeNgay">13</string>
+    <string name="ngongu">Ngonngu</string>
+    <string name="chon">Chọn:</string>
+    <string name="font">font</string>
+    <string name="background">Maunen</string>
+    <string name="Mauchu">Mauchu</string>
+    <string name="Maunut">Maunut</string>
+    <string name="Maunutthatbai">Mauthatbai</string>
+    <string name="Maunutthanhcong">Mauthanhcong</string>
+    <string name="Maunentrong">Maunentrong</string>
+    <string name="november_2019">November 2019</string>
+    <string name="sunday">日曜日</string>
+    <string name="monday">月曜日</string>
+    <string name="tuesday">火曜日</string>
+    <string name="wednesday">水曜日</string>
+    <string name="Thursday">木曜日</string>
+    <string name="friday">金</string>
+    <string name="saturday">土曜日</string>
+    <string name="TiengViet">ベトナム</string>
+    <string name="Anh">イングランド</string>
+    <string name="TrungQuoc">中国語</string>
+    <string name="NhatBan">日本</string>
+    <string name="Chonngonngu">言語を選択してください</string>
+    <string name="Thanhcong">成功</string>
+    <string name="Error">エラー</string>
+    <string name="Caidatphongchu">フォント設定</string>
+    <string name="kh_ng_th_c_hi_n_ch_c_n_ng_n_i">音声機能を実行しません</string>
+    <string name="Noi">Noi</string>
+    <string-array name="fonttext">
+        <item>フォントを選択してください</item>
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Edwardian Script ITC</item>
+        <item>Georgia</item>
+        <item>Goudy Stout</item>
+        <item>Vladimir Script</item>
+        <item>Candara</item>
+        <item>Elephant</item>
+        <item>French Script MT</item>
+        <item>Perpetua</item>
+        <item>Haettenschweiler</item>
+        <item>Bodoni MT Black</item>
+    </string-array>
+</resources>

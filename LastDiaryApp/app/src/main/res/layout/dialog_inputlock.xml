@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#754747"
+    android:layout_width="400dp"
+    android:layout_height="450dp">
+    <ImageButton
+        android:id="@+id/closeInput123"
+        android:layout_margin="20dp"
+        android:layout_gravity="center|right"
+        android:tint="@android:color/white"
+        android:background="@null"
+        android:src="@drawable/ic_close_36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/lockscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/nhapkhoa"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/white"
+        android:hint="@string/nhap_mat_khau"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/open"
+        android:textColor="@color/colorText"
+        android:text="@string/m_kh_a"
+        android:layout_margin="30dp"
+        android:background="#545BA5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

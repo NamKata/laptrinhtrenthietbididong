@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/xam</item>
+    </style>
+    <style name="Black" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_Black</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Black</item>
+        <item name="colorAccent">@color/colorAccent_Black</item>
+        <item name="backgroundColor">@color/xanhluc</item>
+    </style>
+
+    <style name="custom">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000</item>
+        <item name="android:fontFamily">@color/colorPrimaryDark</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorButton">@color/colorButton</item>
+        <item name="colorText">@color/colorText</item>
+        <item name="colorFont">@color/colorFont</item>
+        <item name="colorButtonText">@color/colorButtonText</item>
+        <item name="colorTint">@color/colorTint</item>
+    </style>
+    <style name="Xanh" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackgroundBlue</item>
+        <item name="colorButton">@color/colorButtonBlue</item>
+        <item name="colorText">@color/colorTextBlue</item>
+        <item name="colorFont">@color/colorFontBlue</item>
+        <item name="colorButtonText">@color/colorButtonTextBlue</item>
+        <item name="colorTint">@color/colorTintBlue</item>
+    </style>
+    <style name="Do" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackgroundRed</item>
+        <item name="colorButton">@color/colorButtonRed</item>
+        <item name="colorText">@color/colorTextRed</item>
+        <item name="colorFont">@color/colorFontRed</item>
+        <item name="colorButtonText">@color/colorButtonTextRed</item>
+        <item name="colorTint">@color/colorTintRed</item>
+    </style>
+    <style name="Den" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackgroundBlack</item>
+        <item name="colorButton">@color/colorButtonBlack</item>
+        <item name="colorText">@color/colorTextBlack</item>
+        <item name="colorFont">@color/colorFontBlack</item>
+        <item name="colorButtonText">@color/colorButtonTextBlack</item>
+        <item name="colorTint">@color/colorTintBlack</item>
+    </style>
+    <style name="Cam" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackgroundOrange</item>
+        <item name="colorButton">@color/colorButtonOrange</item>
+        <item name="colorText">@color/colorTextOrange</item>
+        <item name="colorFont">@color/colorFontOrange</item>
+        <item name="colorButtonText">@color/colorButtonTextOrange</item>
+        <item name="colorTint">@color/colorTintOrange</item>
+    </style>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:background="#754747"
+    tools:context=".AddOrEditCrl.ViewActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btnClose1Edit"
+            android:background="@null"
+            android:src="@drawable/ic_left_black_48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvEDMView"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:gravity="end"
+                android:text="Monday, 11 November"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvYView"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:text="2019"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:elevation="12dp"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tvTitleEdit"
+                android:padding="10dp"
+                android:hint="@string/tieu_de"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:elevation="12dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <EditText
+                android:id="@+id/tvContentEdit"
+                android:padding="10dp"
+                android:hint="@string/noi_dung"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/ll3"
+        android:background="#f2f2f2"
+        android:layout_below="@id/ll2"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:padding="2dp"
+            android:id="@+id/imgView"
+            android:src="@drawable/imgd"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:id="@+id/ll4"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/bg_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/btnReplyView"
+            android:background="@null"
+            android:src="@drawable/ic_reply_black_36dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_weight="3"
+            android:id="@+id/btnEditView"
+            android:background="@null"
+            android:src="@drawable/ic_edit_black_36dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_weight="1"
+
+            android:id="@+id/btnTrashView"
+            android:background="@null"
+            android:src="@drawable/ic_delete_black_36dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

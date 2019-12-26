@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backgroundColor" format="color"/>
+    <attr name="colorBackground" format="reference" />
+    <attr name="colorButton" format="reference" />
+    <attr name="colorText" format="reference" />
+    <attr name="colorFont" format="reference"/>
+    <attr name="colorButtonText" format="reference"/>
+    <attr name="colorTint" format="reference"/>
+<!--&lt;!&ndash; Xanh   &ndash;&gt;-->
+<!--    <attr name="colorBackgroundBlue" format="reference" />-->
+<!--    <attr name="colorButtonBlue" format="reference" />-->
+<!--    <attr name="colorTextBlue" format="reference" />-->
+<!--    <attr name="colorFontBlue" format="reference"/>-->
+<!--    <attr name="colorButtonTextBlue" format="reference"/>-->
+<!--    <attr name="colorTintBlueBlue" format="reference"/>-->
+<!--&lt;!&ndash;  Do  &ndash;&gt;-->
+<!--    <attr name="colorBackgroundRed" format="reference" />-->
+<!--    <attr name="colorButtonRed" format="reference" />-->
+<!--    <attr name="colorTextRed" format="reference" />-->
+<!--    <attr name="colorFontRed" format="reference"/>-->
+<!--    <attr name="colorButtonTextRed" format="reference"/>-->
+<!--    <attr name="colorTintRed" format="reference"/>-->
+<!--&lt;!&ndash;  Den  &ndash;&gt;-->
+<!--    <attr name="colorBackgroundBlack" format="reference" />-->
+<!--    <attr name="colorButtonBlack" format="reference" />-->
+<!--    <attr name="colorTextBlack" format="reference" />-->
+<!--    <attr name="colorFontBlack" format="reference"/>-->
+<!--    <attr name="colorButtonTextBlack" format="reference"/>-->
+<!--    <attr name="colorTintBlack" format="reference"/>-->
+<!--&lt;!&ndash;  Cam  &ndash;&gt;-->
+<!--    <attr name="colorBackgroundOrange" format="reference" />-->
+<!--    <attr name="colorButtonOrange" format="reference" />-->
+<!--    <attr name="colorTextOrange" format="reference" />-->
+<!--    <attr name="colorFontOrange" format="reference"/>-->
+<!--    <attr name="colorButtonTextOrange" format="reference"/>-->
+<!--    <attr name="colorTintOrange" format="reference"/>-->
+</resources>

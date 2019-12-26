@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="xam">#666666</color>
+
+    <color name="colorPrimary_Black">#43B414</color>
+    <color name="colorPrimaryDark_Black">#A216A0</color>
+    <color name="colorAccent_Black">#D81B60</color>
+    <color name="xanhluc">#063F39</color>
+
+
+
+    <color name="colorBackground">#232323</color>
+    <color name="colorButton">#D5252525</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorFont">#f2f2f2f2</color>
+    <color name="colorButtonText">#ffffff</color>
+    <color name="colorTint">#66666666</color>
+
+<!--  Xanh  -->
+    <color name="colorBackgroundBlue">#D50883E2</color>
+    <color name="colorButtonBlue">#0003FF</color>
+    <color name="colorTextBlue">#ffffff</color>
+    <color name="colorFontBlue">#f2f2f2f2</color>
+    <color name="colorButtonTextBlue">#ffffff</color>
+    <color name="colorTintBlue">#66666666</color>
+<!--  Do  -->
+    <color name="colorBackgroundRed">#E00D0D</color>
+    <color name="colorButtonRed">#D5252525</color>
+    <color name="colorTextRed">#ffffff</color>
+    <color name="colorFontRed">#f2f2f2f2</color>
+    <color name="colorButtonTextRed">#ffffff</color>
+    <color name="colorTintRed">#66666666</color>
+<!--  Den  -->
+    <color name="colorBackgroundBlack">#232323</color>
+    <color name="colorButtonBlack">#D5252525</color>
+    <color name="colorTextBlack">#ffffff</color>
+    <color name="colorFontBlack">#f2f2f2f2</color>
+    <color name="colorButtonTextBlack">#ffffff</color>
+    <color name="colorTintBlack">#66666666</color>
+<!--  Cam  -->
+    <color name="colorBackgroundOrange">#DFE78D0C</color>
+    <color name="colorButtonOrange">#D5252525</color>
+    <color name="colorTextOrange">#ffffff</color>
+    <color name="colorFontOrange">#f2f2f2f2</color>
+    <color name="colorButtonTextOrange">#ffffff</color>
+    <color name="colorTintOrange">#66666666</color>
+</resources>

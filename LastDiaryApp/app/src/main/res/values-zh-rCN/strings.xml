@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">日记本</string>
+    <string name="tieu_de">职称</string>
+    <string name="noi_dung">内容内容</string>
+    <string name="luu">保存</string>
+    <string name="dong">关闭</string>
+    <string name="co">是的</string>
+    <string name="khong">不行</string>
+    <string name="bancochacmuondong">您确定要关闭吗？</string>
+    <string name="bancochacmuonxoachu">您确定要删除吗？</string>
+    <string name="tukhoabanmuontimlagi">您想找到什么关键词？</string>
+    <string name="caidatmatkhau">密码设定</string>
+    <string name="caidatngongu">语言设定</string>
+    <string name="caidatmausac">颜色设定</string>
+    <string name="caidatkhac">其他设定</string>
+    <string name="gioithieuveapp">应用介绍</string>
+    <string name="theme">失误</string>
+    <string name="quasodong">越线号</string>
+    <string name="trong">行号不能为空</string>
+    <string name="noi">请说出来！ </string>
+    <string name="bieucam1">有趣，快乐，精彩</string>
+    <string name="bieucam2">不自信，担心，不想</string>
+    <string name="bieucam3">上班，小组会议，计划</string>
+    <string name="bieucam4">约会，约会，约会</string>
+    <string name="mat_khau_it_nhat_6_chu_so">密码至少6位数字</string>
+    <string name="nhap_de_xac_nhan_lai_mat_khau">输入以重新定义密码</string>
+    <string name="tao_khoa_an_toan">创建一个安全密钥</string>
+    <string name="tra_loi_cau_hoi">回答问题</string>
+    <string name="cau1">您父亲或母亲的名字是什么？</string>
+    <string name="cau2">你的爱人叫什么名字？</string>
+    <string name="cau3">您不想让任何人知道您的哪个秘密？</string>
+    <string name="cau4">你叫什么名字?</string>
+    <string name="Password"></string>
+    <string name="Khoamatkhau"></string>
+    <string name="nhap_mat_khau">输入密码</string>
+    <string name="dang_nhap">登入</string>
+    <string name="khong_cho_phep_cai_mat_khau">不允许设置密码</string>
+    <string name="nhap_mat_khau_moi">输入新密码</string>
+    <string name="nhap_mat_khau_cu">输入旧密码</string>
+    <string name="thay_doi_mat_khau">密码变更</string>
+    <string name="nhat_ky">日记本</string>
+    <string name="xac_nhan">确认一下</string>
+    <string name="success">成功的</string>
+    <string name="m_kh_a">失误</string>
+    <string name="error">失误</string>
+    <string name="cai_dat_kich_thuoc_chu">安装字体大小</string>
+    <string name="sizetieude">13</string>
+    <string name="SizeNoidung">13</string>
+    <string name="SizeNut">13</string>
+    <string name="SizeGio">13</string>
+    <string name="SizeNgay">13</string>
+    <string name="ngongu">选择语言</string>
+    <string name="chon">选择语言</string>
+    <string name="font">字型</string>
+    <string name="background">Maunen</string>
+    <string name="Mauchu">Mauchu</string>
+    <string name="Maunut">Maunut</string>
+    <string name="Maunutthatbai">Mauthatbai</string>
+    <string name="Maunutthanhcong">Mauthanhcong</string>
+    <string name="Maunentrong">Maunentrong</string>
+    <string name="november_2019">November 2019</string>
+    <string name="sunday">周日</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="friday">周四</string>
+    <string name="saturday">周四</string>
+    <string name="TiengViet">越南</string>
+    <string name="Anh">英格兰</string>
+    <string name="TrungQuoc">中国人</string>
+    <string name="NhatBan">日本</string>
+    <string name="Chonngonngu">选择语言</string>
+    <string name="Thanhcong">成功的</string>
+    <string name="Error">失误</string>
+    <string name="Caidatphongchu">字型设定</string>
+    <string name="kh_ng_th_c_hi_n_ch_c_n_ng_n_i">不执行语音功能</string>
+    <string name="Noi">Noi</string>
+    <string-array name="fonttext">
+        <item>选择字体</item>
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Edwardian Script ITC</item>
+        <item>Georgia</item>
+        <item>Goudy Stout</item>
+        <item>Vladimir Script</item>
+        <item>Candara</item>
+        <item>Elephant</item>
+        <item>French Script MT</item>
+        <item>Perpetua</item>
+        <item>Haettenschweiler</item>
+        <item>Bodoni MT Black</item>
+    </string-array>
+</resources>

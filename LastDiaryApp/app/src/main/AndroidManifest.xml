@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lastdiaryapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Default">
+        <activity android:name=".Setting.ChangeLockActivity"></activity>
+        <activity android:name=".Setting.CofirmPassActivity" />
+        <activity android:name=".Setting.LockScreenActivity" />
+        <activity android:name=".AddOrEditEventCrl.ViewEventActivity" />
+        <activity android:name=".AddOrEditEventCrl.EditEventActivity" />
+        <activity android:name=".AddOrEditEventCrl.AddEventActivity" />
+        <activity android:name=".AddOrEditCrl.ViewActivity" />
+        <activity android:name=".AddOrEditCrl.EditActivity" />
+        <activity android:name=".AddOrEditCrl.AddActivity" />
+        <activity android:name=".TabCrlActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--     Cài đặt thông báo   -->
+        <receiver android:name=".AddOrEditEventCrl.AlarmReceiver"
+            android:exported="true"
+            android:enabled="true"
+            ></receiver>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

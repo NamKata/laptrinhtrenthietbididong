@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:padding="5dp"
+        android:layout_gravity="right"
+        android:id="@+id/btnClose"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#000000"
+        android:src="@drawable/ic_close_36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="#754747"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivMMM"
+            android:layout_gravity="center"
+            android:src="@drawable/imga"
+            android:layout_width="250dp"
+            android:layout_height="150dp"/>
+        <TextView
+            android:id="@+id/Title"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Title in Your Diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iconlockdialog"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ivMMM"
+            android:src="@drawable/ic_lock_open_black_36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_time_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvHH"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="2dp"
+                android:text="07:00 AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/ic_date_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvDDMMYY"
+                android:textColor="@android:color/white"
+                android:text="Sunday,12 November 2019"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvContent"
+            android:padding="10dp"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:background="@android:color/white"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="20dp"
+                android:background="#754747"
+                android:id="@+id/btnView"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:src="@drawable/ic_eye_24dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageButton
+                android:id="@+id/btnED"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="#754747"
+                android:src="@drawable/ic_edit_24dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageButton
+                android:id="@+id/btnTR"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="#754747"
+                android:src="@drawable/ic_delete_24dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

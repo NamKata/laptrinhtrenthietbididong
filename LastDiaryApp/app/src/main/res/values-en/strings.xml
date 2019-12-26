@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Diary</string>
+    <string name="tieu_de">Title</string>
+    <string name="noi_dung">Content</string>
+    <string name="luu">Save</string>
+    <string name="dong">Close</string>
+    <string name="co">Yes</string>
+    <string name="khong">No</string>
+    <string name="bancochacmuondong">Are you sure want to exists?</string>
+    <string name="bancochacmuonxoachu">Are you sure you want to delete</string>
+    <string name="tukhoabanmuontimlagi">Search...</string>
+    <string name="caidatmatkhau">LockScreen Setting</string>
+    <string name="caidatngongu">Language Setting</string>
+    <string name="caidatmausac">Color Setting</string>
+    <string name="caidatkhac">More</string>
+    <string name="gioithieuveapp">Introducing the App</string>
+    <string name="theme">theme</string>
+    <string name="quasodong">Cross the line number</string>
+    <string name="trong">Line number cannot be blank</string>
+    <string name="noi">Please say! </string>
+    <string name="bieucam1">Fun, happy, wonderful</string>
+    <string name="bieucam2">Not confident, worried, do not want to</string>
+    <string name="bieucam3">Go to work, group meeting, plan</string>
+    <string name="bieucam4">Dating, appointment, appointment</string>
+    <string name="mat_khau_it_nhat_6_chu_so">Password is at least 6 digits</string>
+    <string name="nhap_de_xac_nhan_lai_mat_khau">Enter to redefine the password</string>
+    <string name="tao_khoa_an_toan">Create a security key</string>
+    <string name="tra_loi_cau_hoi">Answer the question</string>
+    <string name="cau1">What is your father or mother name?</string>
+    <string name="cau2">What is your lover name?</string>
+    <string name="cau3">Which secret of yours that you do not want anyone to know?</string>
+    <string name="cau4">What is your name ?</string>
+    <string name="Password"></string>
+    <string name="Khoamatkhau"></string>
+    <string name="nhap_mat_khau">Enter password</string>
+    <string name="dang_nhap">Log in</string>
+    <string name="khong_cho_phep_cai_mat_khau">Do not allow to set a password</string>
+    <string name="nhap_mat_khau_moi">Enter your new password</string>
+    <string name="nhap_mat_khau_cu">Enter the old password</string>
+    <string name="thay_doi_mat_khau">Change the password</string>
+    <string name="nhat_ky">Diary</string>
+    <string name="xac_nhan">Confirm</string>
+    <string name="success">Success!</string>
+    <string name="m_kh_a">Unlock</string>
+    <string name="error">Error!</string>
+    <string name="cai_dat_kich_thuoc_chu">Install font size</string>
+    <string name="sizetieude">13</string>
+    <string name="SizeNoidung">13</string>
+    <string name="SizeNut">13</string>
+    <string name="SizeGio">13</string>
+    <string name="SizeNgay">13</string>
+    <string name="ngongu">Language</string>
+    <string name="chon">Click</string>
+    <string name="font">font</string>
+    <string name="background">Background</string>
+    <string name="Mauchu">TextColor</string>
+    <string name="Maunut">ButtonColor</string>
+    <string name="Maunutthatbai">TextError</string>
+    <string name="Maunutthanhcong">TextSuccess</string>
+    <string name="Maunentrong">BackgroundChill</string>
+    <string name="november_2019">November 2019</string>
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="TiengViet">Vietnamese</string>
+    <string name="Anh">England</string>
+    <string name="TrungQuoc">Chinese</string>
+    <string name="NhatBan">Japanese</string>
+    <string name="Chonngonngu">Choose the language</string>
+    <string name="Thanhcong">Success</string>
+    <string name="Error">Error</string>
+    <string name="Caidatphongchu">Font settings</string>
+    <string name="kh_ng_th_c_hi_n_ch_c_n_ng_n_i">Does not perform the speech function</string>
+    <string name="Noi">Noi</string>
+    <string-array name="fonttext">
+        <item>Choose a font</item>
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Edwardian Script ITC</item>
+        <item>Georgia</item>
+        <item>Goudy Stout</item>
+        <item>Vladimir Script</item>
+        <item>Candara</item>
+        <item>Elephant</item>
+        <item>French Script MT</item>
+        <item>Perpetua</item>
+        <item>Haettenschweiler</item>
+        <item>Bodoni MT Black</item>
+    </string-array>
+</resources>

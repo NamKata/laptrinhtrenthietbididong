@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:background="#754747"
+    tools:context=".AddOrEditEventCrl.AddEventActivity">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btnClose1Edit"
+            android:background="@null"
+            android:src="@drawable/ic_left_black_48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ngaythangnam"
+                android:textSize="20dp"
+                android:textColor="?attr/colorText"
+                android:gravity="end"
+                android:text="Monday, 11 November"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/giohientai"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="?attr/colorText"
+                android:text="2019"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:elevation="12dp"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tieudenhacnho"
+                android:padding="10dp"
+                android:hint="@string/tieu_de"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:elevation="12dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <EditText
+                android:id="@+id/noidungnhacnho"
+                android:padding="10dp"
+                android:hint="@string/noi_dung"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!--    <LinearLayout-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:id="@+id/ll3"-->
+    <!--        android:background="#f2f2f2"-->
+    <!--        android:layout_below="@id/ll2"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp">-->
+    <!--        <ImageView-->
+    <!--            android:padding="2dp"-->
+    <!--            android:id="@+id/imgADD"-->
+    <!--            android:src="@drawable/imgd"-->
+    <!--            android:layout_width="60dp"-->
+    <!--            android:layout_height="60dp"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:layout_below="@id/ll2"
+        android:background="@drawable/bg_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:id="@+id/btnCalendarEdit"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_today_36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/btnTimePicker"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_access_time_black_36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/btnIconEdit"
+            android:layout_marginLeft="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_insert_emoticon_36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnThongbao"
+            android:layout_marginLeft="60dp"
+            android:background="@null"
+            android:src="@drawable/ic_notifications_active_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnCloseEvent"
+            android:text="@string/dong"
+            android:drawableLeft="@drawable/ic_close_36dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnSaveEvent"
+            android:text="@string/luu"
+            android:drawableRight="@drawable/ic_done_36dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="60dp"
+        android:id="@+id/llTime"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/ll4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_access_alarm_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/giohen"
+            android:layout_gravity="center_vertical"
+            android:textSize="12dp"
+            android:textColor="@android:color/white"
+            android:text="07:00 AM"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_today_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ngayhen"
+            android:layout_gravity="center_vertical"
+            android:textSize="12dp"
+            android:textColor="?attr/colorText"
+            android:text="20 / 11 / 2019"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/bieucam"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">My Diary</string>
+    <string name="tieu_de">Tiêu đề</string>
+    <string name="noi_dung">Nội dung...</string>
+    <string name="luu">Lưu</string>
+    <string name="dong">Đóng</string>
+    <string name="co">CÓ</string>
+    <string name="khong">Không</string>
+    <string name="bancochacmuondong">Bạn có chắc chắm muốn đóng ?</string>
+    <string name="bancochacmuonxoachu">Bạn có chắc muốn xóa chứ ?</string>
+    <string name="tukhoabanmuontimlagi">Từ khóa bạn muốn tìm là gì ?</string>
+    <string name="caidatmatkhau">Cài đặt mật khẩu</string>
+    <string name="caidatngongu">Cài đặt ngôn ngữ</string>
+    <string name="caidatmausac">Cài đặt màu sắc</string>
+    <string name="caidatkhac">Cài đặt khác</string>
+    <string name="gioithieuveapp">Giới thiệu về App</string>
+    <string name="theme">theme</string>
+    <string name="quasodong">Qua số dòng</string>
+    <string name="trong">Số dòng không được để trống</string>
+    <string name="noi">Bạn hãy nói đi! </string>
+    <string name="bieucam1">Vui vẻ, hạnh phúc, tuyệt vời</string>
+    <string name="bieucam2">Không tự tin, lo lắng, không muốn</string>
+    <string name="bieucam3">Đi làm, họp nhóm, kế hoạch</string>
+    <string name="bieucam4">Hẹn hò, hẹn bạn, hẹn công việc</string>
+    <string name="mat_khau_it_nhat_6_chu_so">Mật khẩu ít nhất 6 chữ số</string>
+    <string name="nhap_de_xac_nhan_lai_mat_khau">Nhập để xác định lại mật khẩu</string>
+    <string name="tao_khoa_an_toan">Tạo khóa an toàn</string>
+    <string name="tra_loi_cau_hoi">Trả lời câu hỏi</string>
+    <string name="cau1">Trả lời câu hỏi</string>
+    <string name="cau2">Trả lời câu hỏi</string>
+    <string name="cau3">Trả lời câu hỏi</string>
+    <string name="cau4">Trả lời câu hỏi</string>
+    <string name="Password"></string>
+    <string name="Khoamatkhau"></string>
+    <string name="nhap_mat_khau">Nhập mật khẩu</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="khong_cho_phep_cai_mat_khau">Không cho phép cài mật khẩu</string>
+    <string name="nhap_mat_khau_moi">Nhập mật khẩu mới</string>
+    <string name="nhap_mat_khau_cu">Nhập mật khẩu cũ</string>
+    <string name="thay_doi_mat_khau">Thay đổi mật khẩu</string>
+    <string name="nhat_ky">Nhật Ký</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="success">Success!</string>
+    <string name="m_kh_a">Mở khóa</string>
+    <string name="error">Error!</string>
+    <string name="cai_dat_kich_thuoc_chu">Install font size</string>
+    <string name="sizetieude">13</string>
+    <string name="SizeNoidung">13</string>
+    <string name="SizeNut">13</string>
+    <string name="SizeGio">13</string>
+    <string name="SizeNgay">13</string>
+    <string name="ngongu">Ngonngu</string>
+    <string name="chon">Click</string>
+    <string name="font">font</string>
+    <string name="background">Maunen</string>
+    <string name="Mauchu">Mauchu</string>
+    <string name="Maunut">Maunut</string>
+    <string name="Maunutthatbai">Mauthatbai</string>
+    <string name="Maunutthanhcong">Mauthanhcong</string>
+    <string name="Maunentrong">Maunentrong</string>
+    <string name="november_2019">November 2019</string>
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="TiengViet">Vietnamese</string>
+    <string name="Anh">England</string>
+    <string name="TrungQuoc">Chinese</string>
+    <string name="NhatBan">Japanene</string>
+    <string name="Chonngonngu">Choose the language</string>
+    <string name="Thanhcong">Success</string>
+    <string name="Error">Error</string>
+    <string name="Caidatphongchu">Cài đặt phông chữ</string>
+    <string name="kh_ng_th_c_hi_n_ch_c_n_ng_n_i">Không thực hiện chức năng nói</string>
+    <string name="Noi">Noi</string>
+    <string-array name="fonttext">
+        <item>Choose a font</item>
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Edwardian Script ITC</item>
+        <item>Georgia</item>
+        <item>Goudy Stout</item>
+        <item>Vladimir Script</item>
+        <item>Candara</item>
+        <item>Elephant</item>
+        <item>French Script MT</item>
+        <item>Perpetua</item>
+        <item>Haettenschweiler</item>
+        <item>Bodoni MT Black</item>
+    </string-array>
+</resources>
